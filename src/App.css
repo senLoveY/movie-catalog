@@ -238,6 +238,32 @@
   line-height: 1.55;
   color: #333;
 }
+.movie-modal-trailer {
+  margin: 0 0 16px;
+}
+.movie-modal-trailer-title {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #555;
+}
+.movie-modal-trailer-frame {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
+  aspect-ratio: 16 / 9;
+}
+.movie-modal-trailer-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.movie-modal-trailer-video {
+  width: 100%;
+  border-radius: 8px;
+  background: #111;
+}
 .movie-modal-credit {
   margin: 0 0 10px;
   font-size: 14px;

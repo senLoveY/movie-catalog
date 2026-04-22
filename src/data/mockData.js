@@ -51,6 +51,7 @@ function parseMoviesFromCsv(text) {
       description: overview,
       rating: Number.isFinite(ratingBall) ? Math.round(ratingBall * 10) / 10 : 0,
       image: stripQuotes(row.url_logo),
+      trailerUrl: stripQuotes(row.trailer_url),
       country: countries.join(", ") || "",
       genres: genreTokens,
       director: String(row.director ?? "").trim(),

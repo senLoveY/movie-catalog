@@ -1,11 +1,5 @@
 import { collectGenres, filterMovies } from "../movieCatalogUtils";
 
-/**
- * @description Unit-тесты утилит каталога (аналоги логики «рейтинг / отбор» из варианта 5)
- * @case Сбор уникальных жанров и сортировка
- * @case Фильтрация по поиску, жанру и минимальному рейтингу
- * @case Крайние случаи: пустые данные, отсутствие совпадений
- */
 describe("movieCatalogUtils", () => {
   const movies = [
     {
