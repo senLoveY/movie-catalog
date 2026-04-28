@@ -10,7 +10,7 @@ const MovieCard = ({ movie, onOpen }) => (
       aria-label={`Подробнее: ${movie.title}`}
     >
       <div className="poster-container">
-        <img src={movie.image} alt="" />
+        <img src={movie.image} alt="" loading="lazy"/>
       </div>
       <div className="movie-info">
         <h3 className="title">{movie.title}</h3>

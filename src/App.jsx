@@ -62,7 +62,7 @@ class App extends Component {
           />
           {selectedMovie ? (
             <MovieDetailModal
-              movie={selectedMovie}
+               movie={selectedMovie}
               onClose={this.handleCloseModal}
             />
           ) : null}
